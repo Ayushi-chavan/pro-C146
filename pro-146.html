@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+	</head>
+    <body>
+		<a-scene background="color: #000000">
+       <!--Camera-->
+       <a-entity position="0 0 15">
+        <a-camera></a-camera>
+    </a-entity>
+      <a-plane
+				  position="-0.074 -6.5 -3.7"
+				  scale="12.0 0.5 1.0"
+				  color="#000"
+				></a-plane>
+
+    <!--Bluebody-->
+    <a-sphere
+    color="blue"
+    radius="3"
+    position="0 0.25 0.9"
+    
+    ></a-sphere> 
+    <a-sphere
+    color="blue"
+    radius="2"
+    position="0 4.8 0.9"
+    
+    ></a-sphere>
+
+    <!--Belt-->
+    <a-cylinder
+    color="#FB1E1A"
+    radius="1.5"
+    position="0 2.8 0.9"
+    ></a-cylinder>
+
+    <!--Whitebody-->
+    <a-sphere
+     color="#F7F9BA"
+     radius="2"
+     position="0 0.8 2.3"
+
+    ></a-sphere>
+    <a-sphere
+     color="#F7F9BA"
+     radius="1.5"
+     position="0 4.6 1.8"
+    ></a-sphere>
+
+    <!--bell-->
+    <a-sphere
+     color="#F9F22F"
+     radius="0.3"
+     position="0 2.6 3.8"
+    ></a-sphere>
+
+    <!--Eyes-->
+    <a-sphere
+     color="black"
+     radius="0.15"
+     position="-0.2 5.45 3.4"
+     animation="property:position; to: -0.2 5.3 3.4;dir:alternate;loop:true; dur:1000"
+    ></a-sphere>
+    <a-sphere
+     color="black"
+     radius="0.15" 
+     position="0.25 5.45 3.4"
+     animation="property:position; to: 0.25 5.3 3.4;dir:alternate;loop:true; dur:1000"
+    ></a-sphere>
+    <a-sphere
+     color="white"
+     radius="0.3"
+     position="-0.2 5.5 3.2"
+    ></a-sphere>
+    <a-sphere
+    color="white"
+    radius="0.3"
+    position="0.3 5.5 3.2" 
+   ></a-sphere>
+    
+    <!--noseline-->
+    <a-plane
+    color="black"
+    scale="0.1 1 1.0"
+    position=" 0 4.5 3.6"
+    ></a-plane>
+
+     <!--mustache-->
+     <a-plane
+     color="green"
+     scale="0.1 1.2 1.0"
+     position=" 1 4.8 3.6"
+     rotation="60 90 0"
+     ></a-plane>
+
+     <a-plane
+     color="green"
+     scale="0.1 1.2 1.0"
+     position=" 1 3.9 5"
+     rotation="90 90 0"
+     ></a-plane>
+     <a-plane
+     color="green"
+     scale="0.1 1.2 1.0"
+     position=" 1 3.8 3.6"
+     rotation="90 130 0"
+     ></a-plane>
+
+
+     <a-plane
+     color="green"
+     scale="0.1 1.2 1.0"
+     position="-1 3.6 3.6"
+     rotation="60 90 0"
+     ></a-plane>
+
+     <a-plane
+     color="green"
+     scale="0.1 1.2 1.0"
+     position="-1 3.9 5"
+     rotation="90 90 0"
+     ></a-plane>
+     <a-plane
+     color="green"
+     scale="0.1 1.7 1.0"
+     position=" -1 4.6 3.6"
+     rotation="90 140 0"
+     ></a-plane>
+    <!--pocketline-->
+    <a-plane
+    color="grey"
+    scale="1.8 0.05 1.0"
+    position=" 0 1.2 8.6"
+    ></a-plane>
+
+    <!--Nose-->
+    <a-sphere
+     color="red"
+     radius="0.15"
+     position="0 5.2 3.3"
+    ></a-sphere>
+
+    <!--legs-->
+  
+
+  <a-sphere
+  color="white"
+  radius="0.5"
+  position="1.5 -2.7 2.8"
+  scale="2.5 1.7 1"
+  ></a-sphere>
+  <a-sphere
+  color="white"
+  radius="0.5"
+  position="-1.5 -2.7 2.8"
+  scale="2.5 1.7 1"
+  ></a-sphere>
+
+<!--hands-->
+<a-cylinder
+    color="blue"
+    position="-3 2 2.3"
+    scale="0.6 3 0.5"
+    rotation="0 0 50"
+    ></a-cylinder>
+    <a-cylinder
+    color="blue"
+    position="3 2 2.3"
+    scale="0.6 3 0.5"
+    rotation="0 0 -50"
+    ></a-cylinder>
+
+    <a-sphere
+  color="white"
+  radius="0.5"
+  position="4.2 3.1 2.6"
+  scale="1.5 1.5 1"
+  ></a-sphere>
+  <a-sphere
+  color="white"
+  radius="0.5"
+  position="-4.2 3.1 2.6"
+  scale="1.5 1.5 1"
+  ></a-sphere>
+
+</a-scene>
+	</body>
+  </html>
